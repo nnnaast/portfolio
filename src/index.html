@@ -1,13 +1,165 @@
-   <!DOCTYPE html>
-   <html lang="ru">
-   <head>
-     <meta charset="UTF-8">
-     <title>Дорофеева Анастасия</title>
-     <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-     <h1>Привет</h1>
-     <img src="images/images.png" alt="картинка" width="200">
-     <script src="script.js"></script>
-   </body>
-   </html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дорофеева Анастасия — Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем шрифт с засечками для заголовков -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="logo">А</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#why">Почему я?</a></li>
+                <li><a href="#contact">Обратная связь</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <h1 class="main-title">Дорофеева<br>Анастасия</h1>
+        <div class="hero-image-wrapper">
+            <!-- Сюда вставь свое фото, если оно есть. Пока стоит заглушка -->
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop" alt="Анастасия" class="hero-img">
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about section-bg">
+        <div class="container relative">
+            <h2 class="section-title">Обо мне <span class="num">01.</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>С 2022 года создаю сайты и погружаюсь в мир IT и дизайна</h3>
+                    <p>Пришла в профессию благодаря брату-программисту и проекту «Код будущего». Сейчас я учусь в вузе созданию игр и многому другому по программе: "информационные системы и технологии в дизайне", активно развиваюсь в 3D, веб-дизайне и графике. Моя цель — объединять программирование, дизайн и игровые миры.</p>
+                </div>
+            </div>
+            <!-- Красный блоб на фоне -->
+            <div class="blob blob-about"></div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="portfolio">
+        <div class="container relative">
+            <h2 class="section-title">Портфолио <span class="num">02.</span></h2>
+            <div class="portfolio-grid">
+                <!-- Карточка 1 -->
+                <a href="#" class="portfolio-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1490750967868-88cb4ecb07cb?q=80&w=600&auto=format&fit=crop" alt="Цветочный магазин">
+                    </div>
+                    <p>сайт цветочного магазина</p>
+                </a>
+                <!-- Карточка 2 -->
+                <a href="#" class="portfolio-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=600&auto=format&fit=crop" alt="Сайт портфолио">
+                    </div>
+                    <p>сайт портфолио</p>
+                </a>
+                <!-- Карточка 3 -->
+                <a href="#" class="portfolio-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop" alt="Учебный сайт">
+                    </div>
+                    <p>учебный сайт</p>
+                </a>
+                <!-- Карточка 4 -->
+                <a href="#" class="portfolio-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=600&auto=format&fit=crop" alt="3D модель">
+                    </div>
+                    <p>3D модель</p>
+                </a>
+            </div>
+            <div class="portfolio-btn-wrapper">
+                <a href="#" class="btn-outline">Смотреть работы &rarr;</a>
+            </div>
+            <div class="blob blob-portfolio"></div>
+        </div>
+    </section>
+
+    <!-- Почему я -->
+    <section id="why" class="why section-bg">
+        <div class="container">
+            <h2 class="section-title">Почему я? <span class="num">03.</span></h2>
+            <p class="why-desc">Я живу на стыке программирования и дизайна — для меня сайт не просто картинка, а работающий инструмент, где эстетика и логика идут рука об руку. Люблю глубокие ботанические оттенки и уютный визуал, но главное — умею слушать и превращать ваши идеи в готовый продукт без потерь.</p>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="icon">🕊️</div>
+                    <h4>Обсуждение</h4>
+                    <p>обсуждаем задачу и идеи</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">⏱️</div>
+                    <h4>Фиксируем</h4>
+                    <p>детали в договоре или ТЗ</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">💻</div>
+                    <h4>Работаю</h4>
+                    <p>по предоплате обычно 40%</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">⚙️</div>
+                    <h4>Процесс</h4>
+                    <p>вы всегда в курсе процесса</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">📄</div>
+                    <h4>Сдача</h4>
+                    <p>готовлю работу</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обратная связь -->
+    <section id="contact" class="contact">
+        <div class="container relative">
+            <h2 class="section-title">Форма обратной связи <span class="num">04.</span></h2>
+            <form class="contact-form" id="feedbackForm">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Email или телефон" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="3" placeholder="Расскажите о проекте..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">ОТПРАВИТЬ &rarr;</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Дорофеева Анастасия<br>2026</p>
+            <div class="socials">
+                <a href="mailto:anastdor23@gmail.com">✉️ anastdor23@gmail.com</a>
+                <a href="#">ВК</a>
+                <a href="#">TG</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
