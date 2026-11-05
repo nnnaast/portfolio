@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Сборка лендинга-портфолио",
+  "type": "module",
+  "scripts": {
+    "build": "tsx index.ts",
+    "watch": "tsx index.ts --watch"
+  },
+  "keywords": [],
+  "author": "Дорофеева Анастасия",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/clean-css": "^4.2.11",
+    "@types/html-minifier-terser": "^7.0.2",
+    "@types/node": "^26.6.6",
+    "clean-css": "^5.3.3",
+    "esbuild": "^0.28.2",
+    "html-minifier-terser": "^7.2.0",
+    "sharp": "^0.35.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
